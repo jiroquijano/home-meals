@@ -25,20 +25,27 @@
     <main id="main-content">
         <h1 id="groceriessection"> Groceries </h1>
         <section id="groceries-main" class="sectionbox srollable">
-        <h2 id="current-stock-label" class=floatleft>Current Stock</h1>
-          <div id="in-stock-subsection" class="floatleft groceries-subsection scrollable stick-to-left">
-            <table id="current-inventory-table">
+
+          <h2 id="current-stock-label" class=floatleft>Current Stock</h1>
+          <div id="in-stock-subsection" class="floatleft groceries-subsection scrollable stick-to-left"
+            title="this section contains information about the current groceries available">
+            <table id="in-stock-items-table" class="inventory-table">
                 <tr>
                   <td>Placeholder</td>
                   <td> 0 </td>
                 </tr>
             </table>
           </div>
+
           <h2 id="to-buy-label" class=floatleft>Items to Buy</h1>
-          <div id="to-buy-subsection" class="floatleft groceries-subsection scrollable">
-            <ul id="to-buy-items">
-              <li>Placeholder</li>
-            </ul>
+          <div id="to-buy-subsection" class="floatleft groceries-subsection scrollable" 
+            title="this section contains grocery items to be bought">
+            <table id="to-buy-items-table" class="inventory-table">
+                <tr>
+                  <td>Placeholder</td>
+                  <td> 0 </td>
+                </tr>
+            </table>
           </div>
         </section>
 
