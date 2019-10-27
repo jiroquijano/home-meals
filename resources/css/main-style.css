@@ -33,18 +33,12 @@ section h2{
     height:60%;
 }
 
-#current-stock-label{
-    left:0;
-    width:20%;
-}
-
-#to-buy-label{
-    right:0;
-    width:20%;
-}
-
-#to-buy-subsection{
+.second-subsection{
     left:30%;
+}
+
+.third-subsection{
+    left:60%;
 }
 
 #kitchen-main{
@@ -55,7 +49,7 @@ section h2{
 
 /*to-do: try using the justify-content as a solution 
 for aligning sub sections instead of absolute position */
-.groceries-subsection{
+.subsection-box{
     background-color:white;
     box-shadow: 5px 5px 5px gray;
     border:solid gray thin;
@@ -65,6 +59,11 @@ for aligning sub sections instead of absolute position */
     height:60%;
     margin:5px;
     margin-top:0;
+}
+
+.subsection-label{
+    width:20%;
+    text-align: left;
 }
 
 .inventory-table{
